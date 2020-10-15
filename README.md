@@ -2,7 +2,7 @@
   - [Twiiter Clone](https://twitter-clone-3f55d.web.app/) 
   
 # `SNEAKY PEAK`
-  - ![Spotify Snekay Peak](https://github.com/Kabi4/Slack-Clone/blob/main/SneakyPeak.png)
+  - ![Spotify Snekay Peak](https://github.com/Kabi4/Twitter-Clone/blob/main/Snekay%20Peak.png)
 # `BUILD INFO`
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
