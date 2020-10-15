@@ -32,7 +32,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Code Splitting](#code-splitting)
 - [Adding a Stylesheet](#adding-a-stylesheet) 
 - [Post-Processing CSS](#post-processing-css) 
-- [Adding a CSS Preprocessor (Sass, Less etc.)](#adding-a-css-preprocessor-sass-less-etc)
+- [Adding a CSS Preprocessor (Sass, Less etc.)](#adding-a-css-preprocessor-sass-less-etc) 
 - [Adding Images, Fonts, and Files](#adding-images-fonts-and-files)
 - [Using the `public` Folder](#using-the-public-folder)
   - [Changing the HTML](#changing-the-html)
