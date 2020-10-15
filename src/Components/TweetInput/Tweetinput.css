@@ -28,7 +28,7 @@
 
 .selftweet__body > textarea{
     flex: 1;
-    height: 15rem;
+    height: 18rem;
     resize: none;
     border: none;
     outline: none;
@@ -62,4 +62,46 @@
 .selftweet__button:active{
     transform: translateY(1px) scale(1) !important;
     transition: all 0.2s linear !important;
+}
+
+.image__uploader{
+    margin-right: 5px;
+}
+
+.image__uploader > input{
+    display: none;
+}
+
+#image__uploader__label{
+    color: var(--twitter-color);
+    padding: 1rem;
+    font-size: 4.4rem !important;
+    transition: all 0.2s linear !important;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#image__uploader__label:hover{
+    background-color: #E8F5FE;
+    transition: all 0.2s linear !important;
+}
+
+#image__uploader__label:active{
+    background-color: #b3d9f5;
+    transition: all 0.2s linear !important;
+}
+
+.selftweet__tweet__details{
+    display: flex;
+    align-items: center;
+}
+
+.selftweet__button:disabled{
+    background-color: grey!important;
+}
+
+.selftweet__tweet__details > p{
+    margin-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b3d9f5;
 }
