@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 0.2;
+    min-width: 17rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--twitter-background-color);
+    height: 100vh;
+}
+
+@media(max-width: 700px){
+    .sidebar{
+        flex: 0.3;
+    }
+}
+
+
+#twitter_icon{
+    font-size: 3rem!important;
+    margin-bottom: 2rem !important;
+}
+
+.MuiSvgIcon-root{
+    font-size: 2.6rem!important;
+}
+
+.siderbar__tweetButton{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    border: none !important;
+    font-family: inherit !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    font-size: 1.4rem !important;
+    transition: all 0.2s linear !important;
+    backface-visibility: hidden !important;
+}
+
+.siderbar__tweetButton:hover{
+    transform: translateY(-1px) scale(1.01) !important;
+    transition: all 0.2s linear !important;
+}
+
+.siderbar__tweetButton:active{
+    transform: translateY(1px) scale(1) !important;
+    transition: all 0.2s linear !important;
+}

@@ -1,0 +1,24 @@
+.sidebar__option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.sidebar__option > h2{
+    font-size: 1.6rem;
+    margin: 0 2rem 0 1rem;
+    font-weight: 800;
+}
+
+.sidebar__option:hover{
+    background-color: #e8f5fe;
+    color: var(--twitter-color);
+    border-radius: 30px;
+    transition: all 0.2 ease-out;
+}
+
+.sidebar__option__active{
+    color: var(--twitter-color);
+    border-radius: 30px;
+}

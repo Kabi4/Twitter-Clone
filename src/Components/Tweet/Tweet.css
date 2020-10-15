@@ -1,0 +1,135 @@
+.tweet{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 20px;
+    border-bottom: 2px solid var(--twitter-background-color);
+    transition: all 0.2s linear;
+}
+.tweet:last-of-type{
+    margin-bottom: 20px;
+}
+
+.tweet:hover{
+    background-color: #ececec;
+}
+
+.tweet__info{
+    display: flex;
+    margin-right: 10px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.tweet__info__user{
+    margin-right: 0.5rem;
+}
+
+.tweet__info__content{
+    flex: 1;
+}
+
+.tweet__info__content__user{
+    display: flex;
+    align-items: center;
+}
+
+.tweet__info__content__user > *:not(:first-child){
+    margin-left: 0.5rem;
+}
+
+.tweet__info__content__user > p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.tweet__info__content__tweet{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet__info__content__tweet > *{
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+
+.tweet__info__content__tweet > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.tweet__function{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 4px 35px;
+}
+
+.tweet__info__content__tweet > p{
+    color: rgb(85, 83, 83);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+#tweet__function__comment{
+    cursor: pointer;
+    font-size: 3.4rem !important;
+    padding: 1rem;
+    transition: all 0.2s linear;
+    border-radius: 99.99%;
+}
+
+#tweet__function__comment:hover{
+    transform: scale(1.08) !important;
+    background-color: #E8F5FE;
+    color: var(--twitter-color);
+}
+
+#tweet__function__retweet{
+    cursor: pointer;
+    font-size: 3.4rem !important;
+    padding: 1rem;
+    transition: all 0.2s linear;
+    border-radius: 99.99%;
+}
+
+#tweet__function__retweet:hover{
+    transform: scale(1.08) !important;
+    background-color: #dcfacf;
+    color: rgb(67, 236, 81);
+}
+
+
+#tweet__function__like{
+    cursor: pointer;
+    font-size: 3.4rem !important;
+    padding: 1rem;
+    transition: all 0.2s linear;
+    border-radius: 99.99%;
+}
+
+#tweet__function__like:hover{
+    transform: scale(1.08) !important;
+    background-color: #f7ced8;
+    color: rgb(236, 67, 81);
+}
+
+
+#tweet__function__share{
+    cursor: pointer;
+    font-size: 3.4rem !important;
+    padding: 1rem;
+    transition: all 0.2s linear;
+    border-radius: 99.99%;
+}
+
+#tweet__function__share:hover{
+    transform: scale(1.08) !important;
+    background-color: #E8F5FE;
+    color: var(--twitter-color);
+}
+
+#verified{
+    font-size: 1.2rem !important;
+    color: var(--twitter-color);
+    margin-left: 0.5rem;
+}

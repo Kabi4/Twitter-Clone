@@ -1,0 +1,65 @@
+.selftweet{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 8px solid var(--twitter-background-color);
+}
+
+.selftweet__body{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background-color);
+}
+
+.selftweet__body__avatar{
+    margin-top: 1rem;
+}
+
+.selftweet__tweet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selftweet__tweet > p{
+    padding: 10px 10px 0 0;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.selftweet__body > textarea{
+    flex: 1;
+    height: 15rem;
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(31, 31, 31);
+}
+
+.selftweet__button{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    border: none !important;
+    font-family: inherit !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+    height: 30px !important;
+    margin-top: 20px !important;
+    font-size: 1.4rem !important;
+    transition: all 0.2s linear !important;
+    backface-visibility: hidden !important;
+}
+
+.selftweet__button:hover{
+    transform: translateY(-1px) scale(1.01) !important;
+    transition: all 0.2s linear !important;
+}
+
+.selftweet__button:active{
+    transform: translateY(1px) scale(1) !important;
+    transition: all 0.2s linear !important;
+}
