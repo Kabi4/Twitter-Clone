@@ -1,5 +1,5 @@
 # `APP LIVE`
-  - [Twitter Clone](https://twitter-clone-3f55d.web.app/) 
+  - [Twitter Clone](https://twitter-clone-3f55d.web.app/)  
   
 # `SNEAKY PEAK`
   - ![Twitter Snekay Peak](https://github.com/Kabi4/Twitter-Clone/blob/main/Snekay%20Peak.png)
